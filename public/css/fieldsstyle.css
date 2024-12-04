@@ -16,7 +16,7 @@
   justify-content: flex-start; /* Align items to the left */
   width: 98%; /* Make the card take up the full width */
   height: 4rem; /* Set fixed height for the card */
-  background: #fff;
+  background-color: #404040;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   margin: 0 auto;
   padding: 0; /* Remove internal padding */
@@ -31,7 +31,6 @@
 }
 
 .card-name {
-  color: #222222;
   font-weight: 700;
   text-transform: capitalize;
   font-size: 1rem;
@@ -44,11 +43,18 @@
   min-width: 6rem; /* Ensure the name has a minimum width */
 }
 
+.card-name,
+.card-growTime,
+.card-seedPrice,
+.card-profDaily,
+.card-regrow {
+  color: #ffffff;
+}
+
 .card-seedPrice,
 .card-growTime,
 .card-profDaily,
 .card-regrow {
-  color: #222222;
   font-weight: 700;
   text-transform: capitalize;
   font-size: 1rem;
@@ -166,7 +172,7 @@ h1 {
   font-weight: 100;
 }
 body {
-  background-color: #292929;
+  background-color: #141414;
 }
 .selbox {
   width: 98%;
@@ -186,7 +192,8 @@ body {
   margin-top: 1%;
   margin-left: 1%;
   margin-right: 1%;
-  background-color: #8d8d8d;
+  background-color: #404040;
   font-size: 125%;
   font-weight: lighter;
+  color: white;
 }
