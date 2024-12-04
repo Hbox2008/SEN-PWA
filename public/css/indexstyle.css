@@ -1,0 +1,174 @@
+/* @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background: #fdfdfd;
+        font-family: "Nunito", sans-serif;
+        font-size: 1rem;
+    }
+    main {
+        max-width: 900px;
+        margin: auto;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img {
+        height:100px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    nav li {
+        margin-right: 1rem;
+    }
+    nav ul li a {
+        text-decoration-line:none;
+        text-transform: uppercase; 
+        color: #393b45;
+    }
+    nav ul li a:hover {
+        color: #14E6DD;
+    }
+    nav h1 {
+        color: #106D69;
+        margin-bottom: 0.5rem;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        grid-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 1rem 0;
+    }
+    .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 17rem;
+        background: #fff;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 10px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .card-image {
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    }
+    .card-name {
+        color: #222;
+        font-weight: 700;
+        text-transform: capitalize;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+    }
+    .card-about {
+        text-overflow: ellipsis;
+        width: 15rem;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-bottom:1rem;
+    }
+    .btn {
+        border:none;
+        background:none;
+        border-radius:5px;
+        box-shadow:1px 1px 2px rgba(21, 21, 21, 0.1);
+        cursor:pointer;
+        font-size:1.25rem;
+        margin:0 1rem;
+        padding:.25rem 2rem;
+        transition:all .25s ease-in-out;
+        background: hsl(110,21%,93%);
+        color:hsl(141,100%,22%);
+        margin-bottom:1rem;
+    }
+        .btn:focus, .btn:hover {
+        box-shadow:1px 1px 2px rgba(21, 21, 21, 0.2);
+        background: hsl(111,21%,86%);
+    }
+    .about-container {
+        font-size:1.25rem;
+        margin-top:2rem;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .form-control {
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: 1px solid #000;
+    margin: 1rem;
+    background: transparent;
+    transition: all 0.2s;
+    width:100%;
+} */
+@charset "UTF-8";
+/* CSS Document */
+img {
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  text-align: left;
+}
+.topbar {
+  background-color: black;
+  overflow: hidden;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 20px;
+  font-weight: lighter;
+}
+.topbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topbar a:hover {
+  background-color: dimgray;
+  color: white;
+}
+h1 {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-size: 60px;
+  text-align: center;
+}
+.welcome {
+  background-image: url("background.png");
+  background-position: bottom;
+  padding: 24px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-weight: 100;
+}
+body {
+  background-color: skyblue;
+}
+.selbox {
+  width: 98%; /* Each box takes up 48% of the container width */
+  height: 25%; /* Fixed height for both boxes */
+  background-color: skyblue; /* Light background color */
+  overflow: hidden; /* Hide anything overflowing the box */
+  display: flex;
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+  padding: 1%;
+}
+.selbox img {
+  width: 100%;
+  height: 100%;
+}
