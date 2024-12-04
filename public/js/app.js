@@ -20,7 +20,7 @@ function appendData(data) {
         <h1 class="card-growTime">${growTime}</h1>
         <h1 class="card-profDaily">${profDaily}</h1>
         <h1 class="card-regrow">${regrow}</h1>
-        <a class="card-link" href="${link}"><button class="btn">Read More</button></a>
+        <a class="card-link" href=${link}><button class="btn"><img class="mag-image" src="images/Magnifying_Glass.png" alt="Magnifying Glass"/></button></a>
         </div>
         `;
     }
