@@ -39,7 +39,7 @@
   padding-left: 1.8rem; /* Small gap between the image and the name */
   line-height: 1.2;
   white-space: nowrap; /* Prevent text wrapping */
-  overflow: hidden;
+  overflow: visible;
   text-overflow: ellipsis; /* Show ellipsis for overflow text */
   min-width: 6rem; /* Ensure the name has a minimum width */
 }
@@ -59,7 +59,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   flex-shrink: 0; /* Prevent the elements from shrinking */
-  min-width: 14rem; /* Minimum width to prevent squishing */
+  min-width: 15rem; /* Minimum width to prevent squishing */
 }
 
 .card-seedPrice {
