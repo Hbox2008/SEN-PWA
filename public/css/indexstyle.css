@@ -118,17 +118,19 @@
 @charset "UTF-8";
 /* CSS Document */
 img {
-  width: 24px;
-  height: 24px;
+  width: 1.7rem;
+  height: 1.7rem;
   vertical-align: top;
   text-align: left;
 }
 .topbar {
-  background-color: black;
+  background-image: url("/images/Topbar.png");
+  background-repeat: repeat-x;
+  background-size: 50%;
   overflow: hidden;
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  font-size: 20px;
-  font-weight: lighter;
+  font-size: 100%;
+  font-weight: 200;
 }
 .topbar a {
   float: left;
@@ -136,10 +138,10 @@ img {
   text-align: center;
   padding: 12px 12px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 150%;
 }
 .topbar a:hover {
-  background-color: dimgray;
+  background-color: rgba(0, 0, 0, 50);
   color: white;
 }
 h1 {
@@ -148,7 +150,7 @@ h1 {
   text-align: center;
 }
 .welcome {
-  background-image: url("background.png");
+  background-image: url("/images/background.png");
   background-position: bottom;
   padding: 24px;
   color: white;

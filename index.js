@@ -6,6 +6,7 @@
 
 */
 
+console.log("node".split("").sort().join(""));
 const sqlite3 = require("sqlite3").verbose();
 const db = new sqlite3.Database("database/data_source.db");
 
@@ -56,6 +57,7 @@ const path = require("path");
 const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 let bodyParser = require("body-parser");
+const { log } = require("console");
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", function (req, res) {
