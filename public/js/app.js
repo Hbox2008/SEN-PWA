@@ -1,7 +1,7 @@
 // Search box detection
 
 const searchBox = document.getElementById("search-form");
-
+let requestedFilter;
 searchBox.addEventListener("submit", (event) => {
   console.log("hi");
   event.preventDefault();
@@ -25,31 +25,44 @@ filterButtons.forEach((filterButtons) => {
 function buttonClicked() {
   buttonID = this.id;
 
-  let filterThing;
+  // let filterThing;
 
   switch (buttonID) {
     case "Spring":
-      filterThing = "Spring";
+      if (requestedFilter != "Spring") {
+        requestedFilter = "Spring";
+      } else {
+        requestedFilter = "All";
+      }
       break;
     case "Summer":
-      filterThing = "Summer";
+      if (requestedFilter != "Summer") {
+        requestedFilter = "Summer";
+      } else {
+        requestedFilter = "All";
+      }
       break;
     case "Fall":
-      filterThing = "Fall";
+      if (requestedFilter != "Fall") {
+        requestedFilter = "Fall";
+      } else {
+        requestedFilter = "All";
+      }
       break;
     case "Winter":
-      filterThing = "Winter";
-      break;
-    case "All":
-      filterThing = "All";
+      if (requestedFilter != "Winter") {
+        requestedFilter = "Winter";
+      } else {
+        requestedFilter = "All";
+      }
       break;
     default:
-      filterThing = null;
+      requestedFilter = null;
   }
 
-  console.log(filterThing);
+  console.log(requestedFilter);
 
-  loadCrops("Season", filterThing);
+  loadCrops("Season", requestedFilter);
 }
 
 function loadCrops(filterType, filter) {
