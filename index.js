@@ -34,7 +34,9 @@ db.all("SELECT * FROM crops", function (err, rows) {
       '",\n"image":"' +
       row.image +
       '",\n"link":"' +
-      row.link;
+      row.link +
+      '",\n"season":"' +
+      row.season;
     myCounter++;
     if (myCounter == rows.length) {
       myString = myString + '"\n}\n';

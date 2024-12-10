@@ -7,7 +7,8 @@
 "regrow":"No",
 "seedPrice":"30",
 "image":"https://stardewvalleywiki.com/mediawiki/images/2/2f/Blue_Jazz.png",
-"link":"https://stardewvalleywiki.com/Blue_Jazz"
+"link":"https://stardewvalleywiki.com/Blue_Jazz",
+"season":"Spring"
 },
 {
 "ID":2,
@@ -17,7 +18,8 @@
 "regrow":"No",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/c/c3/Carrot.png",
-"link":"https://stardewvalleywiki.com/Carrot"
+"link":"https://stardewvalleywiki.com/Carrot",
+"season":"Spring"
 },
 {
 "ID":3,
@@ -27,7 +29,8 @@
 "regrow":"No",
 "seedPrice":"80",
 "image":"https://stardewvalleywiki.com/mediawiki/images/a/aa/Cauliflower.png",
-"link":"https://stardewvalleywiki.com/Cauliflower"
+"link":"https://stardewvalleywiki.com/Cauliflower",
+"season":"Spring"
 },
 {
 "ID":4,
@@ -37,7 +40,8 @@
 "regrow":"Yes",
 "seedPrice":"2500",
 "image":"https://stardewvalleywiki.com/mediawiki/images/3/33/Coffee_Bean.png",
-"link":"https://stardewvalleywiki.com/Coffee_Bean"
+"link":"https://stardewvalleywiki.com/Coffee_Bean",
+"season":"Spring"
 },
 {
 "ID":5,
@@ -47,7 +51,8 @@
 "regrow":"No",
 "seedPrice":"40",
 "image":"https://stardewvalleywiki.com/mediawiki/images/c/cc/Garlic.png",
-"link":"https://stardewvalleywiki.com/Garlic"
+"link":"https://stardewvalleywiki.com/Garlic",
+"season":"Spring"
 },
 {
 "ID":6,
@@ -57,7 +62,8 @@
 "regrow":"Yes",
 "seedPrice":"60",
 "image":"https://stardewvalleywiki.com/mediawiki/images/5/5c/Green_Bean.png",
-"link":"https://stardewvalleywiki.com/Green_Bean"
+"link":"https://stardewvalleywiki.com/Green_Bean",
+"season":"Spring"
 },
 {
 "ID":7,
@@ -67,7 +73,8 @@
 "regrow":"No",
 "seedPrice":"70",
 "image":"https://stardewvalleywiki.com/mediawiki/images/d/d1/Kale.png",
-"link":"https://stardewvalleywiki.com/Kale"
+"link":"https://stardewvalleywiki.com/Kale",
+"season":"Spring"
 },
 {
 "ID":8,
@@ -77,7 +84,8 @@
 "regrow":"No",
 "seedPrice":"20",
 "image":"https://stardewvalleywiki.com/mediawiki/images/d/db/Parsnip.png",
-"link":"https://stardewvalleywiki.com/Parsnip"
+"link":"https://stardewvalleywiki.com/Parsnip",
+"season":"Spring"
 },
 {
 "ID":9,
@@ -87,7 +95,8 @@
 "regrow":"No",
 "seedPrice":"50",
 "image":"https://stardewvalleywiki.com/mediawiki/images/c/c2/Potato.png",
-"link":"https://stardewvalleywiki.com/Potato"
+"link":"https://stardewvalleywiki.com/Potato",
+"season":"Spring"
 },
 {
 "ID":10,
@@ -97,7 +106,8 @@
 "regrow":"No",
 "seedPrice":"100",
 "image":"https://stardewvalleywiki.com/mediawiki/images/6/6e/Rhubarb.png",
-"link":"https://stardewvalleywiki.com/Rhubarb"
+"link":"https://stardewvalleywiki.com/Rhubarb",
+"season":"Spring"
 },
 {
 "ID":11,
@@ -107,7 +117,8 @@
 "regrow":"Yes",
 "seedPrice":"100",
 "image":"https://stardewvalleywiki.com/mediawiki/images/6/6d/Strawberry.png",
-"link":"https://stardewvalleywiki.com/Strawberry"
+"link":"https://stardewvalleywiki.com/Strawberry",
+"season":"Spring"
 },
 {
 "ID":12,
@@ -117,7 +128,8 @@
 "regrow":"No",
 "seedPrice":"20",
 "image":"https://stardewvalleywiki.com/mediawiki/images/c/cf/Tulip.png",
-"link":"https://stardewvalleywiki.com/Tulip"
+"link":"https://stardewvalleywiki.com/Tulip",
+"season":"Spring"
 },
 {
 "ID":13,
@@ -127,7 +139,8 @@
 "regrow":"No",
 "seedPrice":"40",
 "image":"https://stardewvalleywiki.com/mediawiki/images/f/fe/Unmilled_Rice.png",
-"link":"https://stardewvalleywiki.com/Umilled_Rice"
+"link":"https://stardewvalleywiki.com/Umilled_Rice",
+"season":"Spring"
 },
 {
 "ID":14,
@@ -137,7 +150,8 @@
 "regrow":"Yes",
 "seedPrice":"80",
 "image":"https://stardewvalleywiki.com/mediawiki/images/9/9e/Blueberry.png",
-"link":"https://stardewvalleywiki.com/Blueberry"
+"link":"https://stardewvalleywiki.com/Blueberry",
+"season":"Summer"
 },
 {
 "ID":15,
@@ -147,7 +161,8 @@
 "regrow":"Yes",
 "seedPrice":"150",
 "image":"https://stardewvalleywiki.com/mediawiki/images/f/f8/Corn.png",
-"link":"https://stardewvalleywiki.com/Corn"
+"link":"https://stardewvalleywiki.com/Corn",
+"season":"Summer"
 },
 {
 "ID":16,
@@ -157,7 +172,8 @@
 "regrow":"Yes",
 "seedPrice":"60",
 "image":"https://stardewvalleywiki.com/mediawiki/images/5/59/Hops.png",
-"link":"https://stardewvalleywiki.com/Hops"
+"link":"https://stardewvalleywiki.com/Hops",
+"season":"Summer"
 },
 {
 "ID":17,
@@ -167,7 +183,8 @@
 "regrow":"Yes",
 "seedPrice":"40",
 "image":"https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png",
-"link":"https://stardewvalleywiki.com/Hot_Pepper"
+"link":"https://stardewvalleywiki.com/Hot_Pepper",
+"season":"Summer"
 },
 {
 "ID":18,
@@ -177,7 +194,8 @@
 "regrow":"No",
 "seedPrice":"80",
 "image":"https://stardewvalleywiki.com/mediawiki/images/1/19/Melon.png",
-"link":"https://stardewvalleywiki.com/Melon"
+"link":"https://stardewvalleywiki.com/Melon",
+"season":"Summer"
 },
 {
 "ID":19,
@@ -187,7 +205,8 @@
 "regrow":"No",
 "seedPrice":"100",
 "image":"https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png",
-"link":"https://stardewvalleywiki.com/Poppy"
+"link":"https://stardewvalleywiki.com/Poppy",
+"season":"Summer"
 },
 {
 "ID":20,
@@ -197,7 +216,8 @@
 "regrow":"No",
 "seedPrice":"40",
 "image":"https://stardewvalleywiki.com/mediawiki/images/d/d5/Radish.png",
-"link":"https://stardewvalleywiki.com/Radish"
+"link":"https://stardewvalleywiki.com/Radish",
+"season":"Summer"
 },
 {
 "ID":21,
@@ -207,7 +227,8 @@
 "regrow":"No",
 "seedPrice":"100",
 "image":"https://stardewvalleywiki.com/mediawiki/images/2/2d/Red_Cabbage.png",
-"link":"https://stardewvalleywiki.com/Red_Cabbage"
+"link":"https://stardewvalleywiki.com/Red_Cabbage",
+"season":"Summer"
 },
 {
 "ID":22,
@@ -217,7 +238,8 @@
 "regrow":"No",
 "seedPrice":"400",
 "image":"https://stardewvalleywiki.com/mediawiki/images/d/db/Starfruit.png",
-"link":"https://stardewvalleywiki.com/Starfruit"
+"link":"https://stardewvalleywiki.com/Starfruit",
+"season":"Summer"
 },
 {
 "ID":23,
@@ -227,7 +249,8 @@
 "regrow":"No",
 "seedPrice":"50",
 "image":"https://stardewvalleywiki.com/mediawiki/images/9/9f/Summer_Spangle.png",
-"link":"https://stardewvalleywiki.com/Summer_Spangle"
+"link":"https://stardewvalleywiki.com/Summer_Spangle",
+"season":"Summer"
 },
 {
 "ID":24,
@@ -237,7 +260,8 @@
 "regrow":"Yes",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/4/43/Summer_Squash.png",
-"link":"https://stardewvalleywiki.com/Summer_Squash"
+"link":"https://stardewvalleywiki.com/Summer_Squash",
+"season":"Summer"
 },
 {
 "ID":25,
@@ -247,7 +271,8 @@
 "regrow":"No",
 "seedPrice":"200",
 "image":"https://stardewvalleywiki.com/mediawiki/images/8/81/Sunflower.png",
-"link":"https://stardewvalleywiki.com/Sunflower"
+"link":"https://stardewvalleywiki.com/Sunflower",
+"season":"Summer"
 },
 {
 "ID":26,
@@ -257,7 +282,8 @@
 "regrow":"Yes",
 "seedPrice":"50",
 "image":"https://stardewvalleywiki.com/mediawiki/images/9/9d/Tomato.png",
-"link":"https://stardewvalleywiki.com/Tomato"
+"link":"https://stardewvalleywiki.com/Tomato",
+"season":"Summer"
 },
 {
 "ID":27,
@@ -267,7 +293,8 @@
 "regrow":"No",
 "seedPrice":"10",
 "image":"https://stardewvalleywiki.com/mediawiki/images/e/e2/Wheat.png",
-"link":"https://stardewvalleywiki.com/Wheat"
+"link":"https://stardewvalleywiki.com/Wheat",
+"season":"Summer"
 },
 {
 "ID":28,
@@ -277,7 +304,8 @@
 "regrow":"No",
 "seedPrice":"70",
 "image":"https://stardewvalleywiki.com/mediawiki/images/f/f6/Amaranth.png",
-"link":"https://stardewvalleywiki.com/Amaranth"
+"link":"https://stardewvalleywiki.com/Amaranth",
+"season":"Fall"
 },
 {
 "ID":29,
@@ -287,7 +315,8 @@
 "regrow":"No",
 "seedPrice":"30",
 "image":"https://stardewvalleywiki.com/mediawiki/images/d/dd/Artichoke.png",
-"link":"https://stardewvalleywiki.com/Artichoke"
+"link":"https://stardewvalleywiki.com/Artichoke",
+"season":"Fall"
 },
 {
 "ID":30,
@@ -297,7 +326,8 @@
 "regrow":"No",
 "seedPrice":"20",
 "image":"https://stardewvalleywiki.com/mediawiki/images/a/a4/Beet.png",
-"link":"https://stardewvalleywiki.com/Beet"
+"link":"https://stardewvalleywiki.com/Beet",
+"season":"Fall"
 },
 {
 "ID":31,
@@ -307,7 +337,8 @@
 "regrow":"No",
 "seedPrice":"50",
 "image":"https://stardewvalleywiki.com/mediawiki/images/4/40/Bok_Choy.png",
-"link":"https://stardewvalleywiki.com/Bok_Choy"
+"link":"https://stardewvalleywiki.com/Bok_Choy",
+"season":"Fall"
 },
 {
 "ID":32,
@@ -317,7 +348,8 @@
 "regrow":"Yes",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/f/f1/Broccoli.png",
-"link":"https://stardewvalleywiki.com/Broccoli"
+"link":"https://stardewvalleywiki.com/Broccoli",
+"season":"Fall"
 },
 {
 "ID":33,
@@ -327,7 +359,8 @@
 "regrow":"Yes",
 "seedPrice":"240",
 "image":"https://stardewvalleywiki.com/mediawiki/images/6/6e/Cranberries.png",
-"link":"https://stardewvalleywiki.com/Cranberries"
+"link":"https://stardewvalleywiki.com/Cranberries",
+"season":"Fall"
 },
 {
 "ID":34,
@@ -337,7 +370,8 @@
 "regrow":"Yes",
 "seedPrice":"20",
 "image":"https://stardewvalleywiki.com/mediawiki/images/8/8f/Eggplant.png",
-"link":"https://stardewvalleywiki.com/Eggplant"
+"link":"https://stardewvalleywiki.com/Eggplant",
+"season":"Fall"
 },
 {
 "ID":35,
@@ -347,7 +381,8 @@
 "regrow":"No",
 "seedPrice":"200",
 "image":"https://stardewvalleywiki.com/mediawiki/images/5/5c/Fairy_Rose.png",
-"link":"https://stardewvalleywiki.com/Fairy_Rose"
+"link":"https://stardewvalleywiki.com/Fairy_Rose",
+"season":"Fall"
 },
 {
 "ID":36,
@@ -357,7 +392,8 @@
 "regrow":"Yes",
 "seedPrice":"60",
 "image":"https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png",
-"link":"https://stardewvalleywiki.com/Grape"
+"link":"https://stardewvalleywiki.com/Grape",
+"season":"Fall"
 },
 {
 "ID":37,
@@ -367,7 +403,8 @@
 "regrow":"No",
 "seedPrice":"100",
 "image":"https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png",
-"link":"https://stardewvalleywiki.com/Pumpkin"
+"link":"https://stardewvalleywiki.com/Pumpkin",
+"season":"Fall"
 },
 {
 "ID":38,
@@ -377,7 +414,8 @@
 "regrow":"No",
 "seedPrice":"60",
 "image":"https://stardewvalleywiki.com/mediawiki/images/5/52/Yam.png",
-"link":"https://stardewvalleywiki.com/Yam"
+"link":"https://stardewvalleywiki.com/Yam",
+"season":"Fall"
 },
 {
 "ID":39,
@@ -387,7 +425,8 @@
 "regrow":"No",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/a/aa/Powdermelon.png",
-"link":"https://stardewvalleywiki.com/Powdermelon"
+"link":"https://stardewvalleywiki.com/Powdermelon",
+"season":"Winter"
 },
 {
 "ID":40,
@@ -397,7 +436,8 @@
 "regrow":"Yes",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/0/01/Ancient_Fruit.png",
-"link":"https://stardewvalleywiki.com/Ancient_Fruit"
+"link":"https://stardewvalleywiki.com/Ancient_Fruit",
+"season":"All"
 },
 {
 "ID":41,
@@ -407,7 +447,8 @@
 "regrow":"Yes",
 "seedPrice":"150",
 "image":"https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png",
-"link":"https://stardewvalleywiki.com/Cactus_Fruit"
+"link":"https://stardewvalleywiki.com/Cactus_Fruit",
+"season":"All"
 },
 {
 "ID":42,
@@ -417,7 +458,8 @@
 "regrow":"Yes",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/f/fb/Pineapple.png",
-"link":"https://stardewvalleywiki.com/Pineapple"
+"link":"https://stardewvalleywiki.com/Pineapple",
+"season":"All"
 },
 {
 "ID":43,
@@ -427,7 +469,8 @@
 "regrow":"No",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/0/01/Taro_Root.png",
-"link":"https://stardewvalleywiki.com/Taro_Root"
+"link":"https://stardewvalleywiki.com/Taro_Root",
+"season":"All"
 },
 {
 "ID":44,
@@ -437,7 +480,8 @@
 "regrow":"No",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/8/88/Sweet_Gem_Berry.png",
-"link":"https://stardewvalleywiki.com/Sweet_Gem_Berry"
+"link":"https://stardewvalleywiki.com/Sweet_Gem_Berry",
+"season":"All"
 },
 {
 "ID":45,
@@ -447,6 +491,7 @@
 "regrow":"Yes",
 "seedPrice":"N/A",
 "image":"https://stardewvalleywiki.com/mediawiki/images/5/5b/Tea_Leaves.png",
-"link":"https://stardewvalleywiki.com/Tea_Leaves"
+"link":"https://stardewvalleywiki.com/Tea_Leaves",
+"season":"All"
 }
 ]
