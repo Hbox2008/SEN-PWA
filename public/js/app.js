@@ -28,6 +28,9 @@ function buttonClicked() {
   // let filterThing;
 
   switch (buttonID) {
+    case "Reset":
+      requestedFilter = "All";
+      break;
     case "Spring":
       if (requestedFilter != "Spring") {
         requestedFilter = "Spring";
