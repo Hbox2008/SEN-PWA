@@ -205,3 +205,21 @@ body {
   font-weight: lighter;
   color: white;
 }
+.filterButtons button {
+  margin-top: 0.1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  transition-duration: 0.2s;
+  border: 2px solid black;
+  background-color: lightgray;
+  border-radius: 0.2rem;
+}
+.filterButtons button:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+input {
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+}
