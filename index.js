@@ -1,20 +1,16 @@
-/* Python Implementation, comment out js implementaion below before running
-
-    const spawn = require("child_process").spawn;
-    // you can add arguments with spawn('python',["path/to/script.py", arg1, arg2, ...])
-    const pythonProcess = spawn('python',["database_manager.py"]);
-
-*/
+// This script reads the database and outputs the information to a json file, as well as
+// hosting the pages on port 8000
 
 console.log("node".split("").sort().join(""));
 const sqlite3 = require("sqlite3").verbose();
 const db = new sqlite3.Database("database/data_source.db");
 
+// Grabs the information from data_source.db and prints it into frontEndData.json
+
 let myString = "[\n";
 db.all("SELECT * FROM crops", function (err, rows) {
   let myCounter = 0;
   rows.forEach(function (row) {
-    // console.log(row.extID + ": " + row.name + ": " + row.hyperlink + ": " + row.about + ": " + row.image + ": " + row.language);
     myString =
       myString +
       '{\n"ID":' +
@@ -45,7 +41,6 @@ db.all("SELECT * FROM crops", function (err, rows) {
     }
   });
 
-  // console.log(myString);
   var fs = require("fs");
   fs.writeFile("public/frontEndData.json", myString + "]", function (err) {
     if (err) {
@@ -53,6 +48,8 @@ db.all("SELECT * FROM crops", function (err, rows) {
     }
   });
 });
+
+// Hosts the pages on port 8000
 
 const express = require("express");
 const path = require("path");
@@ -64,28 +61,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "public/index.html"));
-  res.sendFile(path.join(__dirname, "public/add.html"));
-});
-
-app.post("/add.html", function (req, res) {
-  db.serialize(() => {
-    db.run(
-      "INSERT INTO contact_list(email,name) VALUES(?,?)",
-      [req.body.email, req.body.name],
-      function (err) {
-        if (err) {
-          return console.log(err.message);
-        }
-        res.send(
-          "Thank you " +
-            req.body.name +
-            " we have added your email " +
-            req.body.email +
-            " to our distribution list."
-        );
-      }
-    );
-  });
+  res.sendFile(path.join(__dirname, "public/fields.html"));
+  res.sendFile(path.join(__dirname, "public/about.html"));
 });
 
 app.listen(8000, () =>

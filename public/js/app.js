@@ -1,17 +1,17 @@
-// Search box detection
+// Reads the search bar
 
 const searchBox = document.getElementById("search-form");
 let requestedFilter;
 searchBox.addEventListener("submit", (event) => {
-  console.log("hi");
   event.preventDefault();
-  console.log(searchBox.elements.bar.value);
   loadCrops("Name", searchBox.elements.bar.value);
 });
 
-// searchBox has a submit event, run the listener function like this: listener(Event)
+// Loads all crops when the page is first opened
 
 loadCrops();
+
+// Function for the season filter buttons
 
 const filterButtons = document.querySelectorAll(".filterButtons button");
 let buttonID;
@@ -22,11 +22,10 @@ filterButtons.forEach((filterButtons) => {
   filterButtons.addEventListener("click", buttonClicked);
 });
 
+// When one of the buttons is clicked, filter by that button
+
 function buttonClicked() {
   buttonID = this.id;
-
-  // let filterThing;
-
   switch (buttonID) {
     case "Reset":
       requestedFilter = "All";
@@ -62,11 +61,11 @@ function buttonClicked() {
     default:
       requestedFilter = null;
   }
-
-  console.log(requestedFilter);
-
   loadCrops("Season", requestedFilter);
 }
+
+// Function to grab the data from frontEndData.json and insert the HTML for the entries
+// into the fields.html page
 
 function loadCrops(filterType, filter) {
   let result = "";
@@ -107,6 +106,8 @@ function loadCrops(filterType, filter) {
             `;
         }
 
+        // Function to check if each entry matches the current search or filter
+
         function filterCondition(filterType, filter) {
           if (filter == null || filter == "") {
             return true;
@@ -129,24 +130,12 @@ function loadCrops(filterType, filter) {
         }
       }
     );
-
-    // Special error message if nothing is found.
-    // if (result == "") {
-    //   result = `
-    //         <div class="card">
-    //         <img class="card-image" src="../images/favicon.png" alt="Image of Winston Plushie."/>
-    //         <h1 class="card-name">Pokemon not found :(</h1>
-    //         <p class="card-seedPrice">You searched: "${filter}".
-    //         <br>To reset filter, enter nothing.
-    //         </p>
-    //         `;
-    // }
-
     document.querySelector(".container").innerHTML = result;
   }
 }
 
-// Serviceworker stuff
+// Registers serviceworker.js
+
 if ("serviceworker" in navigator) {
   window.addEventListener("load", function () {
     navigator.serviceworker

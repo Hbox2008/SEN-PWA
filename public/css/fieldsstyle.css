@@ -1,6 +1,8 @@
+/* Css for the database page */
+
+/* CSS for the database entries */
 .container {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr)); */
   grid-gap: 1rem;
   justify-content: left;
   align-items: center;
@@ -145,6 +147,8 @@ img {
   vertical-align: top;
   text-align: left;
 }
+
+/* CSS for the top navigation bar */
 .topbar {
   background-image: url("/images/Topbar.png");
   background-repeat: repeat-x;
@@ -213,8 +217,9 @@ body {
   border: 2px rgba(255, 255, 255, 0);
   background-color: lightgray;
   border-radius: 0.2rem;
-  /* margin-left: 15rem; */
 }
+
+/* CSS for the season filter buttons */
 .filterButtons button {
   float: left;
   color: white;
@@ -246,6 +251,8 @@ body {
   background-color: lightskyblue;
   color: white;
 }
+
+/* CSS for the search bar */
 input {
   padding: 0.5rem;
   border: 2px solid black;

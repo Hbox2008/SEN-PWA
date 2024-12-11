@@ -1,2 +1,3 @@
+# Prevents git from uploading these files as .DS_Store is display settings for macOS nad node_modules changes with the persons computer
 .DS_Store
 node_modules/

@@ -1,9 +1,13 @@
+/* Css for the about page */
+
 img {
   width: 1.7rem;
   height: 1.7rem;
   vertical-align: top;
   text-align: left;
 }
+
+/* CSS for the top nav bar */
 .topbar {
   background-image: url("/images/Topbar.png");
   background-repeat: repeat-x;
@@ -25,6 +29,8 @@ img {
   background-color: dimgray;
   color: white;
 }
+
+/* CSS for the body of the page */
 h1 {
   color: white;
 }
