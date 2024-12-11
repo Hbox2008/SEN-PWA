@@ -116,7 +116,7 @@ function loadCrops(filterType, filter) {
               }
               break;
             case "Name":
-              if (crop.toLowerCase().includes(filter)) {
+              if (crop.toLowerCase().includes(filter.toLowerCase())) {
                 return true;
               }
               break;
